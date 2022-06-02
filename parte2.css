@@ -1,0 +1,165 @@
+/* Clase de Todo el contenedor completo de la pagina*/
+.mat-card {
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 10px;
+    border-color:cornflowerblue;
+    border-width: 2px;
+    background: #eff5f3;
+}
+div#profile-background img {
+width: 100%;
+height: 450px;
+border-radius: 32px 32px 0 0;
+z-index: 1;
+}
+
+/* Clase del primer contenedor del contenedor completo*/
+.mat-card#first-card {
+    padding: 20px;
+    background: #eff5f3;
+}
+div.mat-card{
+    border-radius: 31px;
+}
+div#profile-background {
+display: flex;
+}
+
+/*imagen de perfil*/
+.profile-image{
+    border-radius: 50%;
+    width: 162px;
+    height: 162px;
+    margin-top: -110px;
+    z-index: 1;
+    position:absolute
+}
+
+div#informacion li{
+    margin-left: 20px;
+}
+div#info-actions {
+    display: flex;
+    padding-top: 0em;
+}
+div#info-actions button{
+    margin-right: 8px;
+}
+.btn-primary{
+    width: 160px;
+    height: 40px;
+}
+.btn-light{
+    width: 60;
+    height: 40px;
+}
+/* id de boton de informacion de contacto*/
+div#info-contact{
+    margin-bottom: -30px;
+}
+div#info-contact span{
+    font-size: 1 rem;
+    font-weight: 400;
+    color:chocolate
+}
+div#info{
+    font-size:1.5 ;
+}
+div#info-company {
+    color: black;
+    font-size: 1.5rem;
+
+}
+div#info-contact span a{
+    color: #0a66c2;
+    touch-action: manipulation;
+    text-decoration: none;
+}
+div#info-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+div#info-data div{
+    width: 100%;
+}
+div#info-data h1{
+    font-size: 1,8 rem;
+    display: inline;
+    font-weight: 500;
+    line-height: 1.25;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+div.card-titles p{
+    font-size:5 rem;
+}
+
+#info-actions {
+    margin-bottom: 4em;
+}
+div#informacion{
+    margin-bottom : 20px;
+}
+
+div#info-data ul#info-details {
+    width: 232px;
+    list-style: none;
+    flex-shrink: 0;
+    margin-top: -40px;
+    float: right;
+}
+div#info-data ul#info-details li a {
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+div#info-data ul#info-details li a h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    align-self: center;
+    vertical-align: baseline;
+   
+}
+/* boton agregar con icono*/
+.btn-agregar{
+    margin-right: 8px;
+    float: right;
+}
+/* boton editar con icono*/
+.btn-edit a svg  {
+    margin-right: 8px;
+    float: right;
+}
+/* boton editar con icono texto editar*/
+.btn-edit span  {
+    float: right;
+}
+/* boton eliminar con icono texto eliminar*/
+.btn-eliminar a svg{
+    margin-right: 8px;
+    float: right;
+}
+
+div#info-data ul#info-details li a img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    
+}
+
+ul.item-list{
+    list-style: none inside;
+}
+ul.items-list li{
+    display: flex;
+    margin: 10px 0
+}
+ul.item-list li div.data-container {
+    flex-grow: ;
+}
+ul.items-list li div.data-container a{
+    display: flex;
+    color:blueviolet
+}
